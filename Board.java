@@ -1,6 +1,5 @@
 import java.awt.*;
 import javax.swing.*;
-
 public class Board extends JFrame
 {
     private JPanel pan = new JPanel();
@@ -16,6 +15,9 @@ public class Board extends JFrame
         JMenu e=new JMenu("exit");
         mb.add(e);
         e.setIcon(new ImageIcon("C:\\eicon.png"));
+      
+        
+        
         
         setJMenuBar(mb);
     }
